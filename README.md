@@ -1,5 +1,6 @@
 # Dotfiles
 
+```
 Distro ..................... Void Linux
 Window Manager ............. bspwm
 Terminal ................... kitty
@@ -23,6 +24,5 @@ GTK Theme ..................
 Icon Theme ................. 
 Notification Daemon ........
 Hotkey Daemon .............. sxhkd
-  
-    
+```
     
