@@ -1,0 +1,8 @@
+# Wallpaper
+nitrogen --random --set-zoom-fill &
+
+# Compositor
+picom -f &
+
+# Screen Resolution
+randr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
