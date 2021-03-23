@@ -1,0 +1,12 @@
+pty "/usr/sbin/pptp 193.136.28.199 --nolaunchpppd"
+lock
+noauth
+nobsdcomp
+nodeflate
+refuse-eap
+refuse-pap
+require-mppe
+usepeerdns
+name up201806250
+remotename feup
+ipparam feup
