@@ -2,27 +2,26 @@
 
 ```
 Distro ..................... Arch Linux
-Window Manager ............. bspwm
-Wallpaper .................. nitrogen
+Window Manager ............. i3
 Terminal ................... kitty
-Shell ...................... bash 
-Locker ..................... none
+Shell ...................... zsh
+Locker ..................... i3lock
 Fonts ...................... 
 Screen Capturing ........... flameshot
 Clipboard Manager ..........
 Browser .................... firefox
 Editor ..................... nano
 Audio tool ................. PulseAudio
-File Manager ............... nautilus
+File Manager ............... thunar
 Document Viewer ............ zathura
 Image Viewer ...............
 Music Player ............... 
 Media Player ............... mpv
 Launcher ................... rofi
 Status Bar ................. polybar
-GTK Theme .................. 
-Icon Theme ................. 
-Notification Daemon ........
+GTK Theme .................. Adwaita
+Icon Theme ................. Adwaita
+Notification Daemon ........ dunstr
 Hotkey Daemon .............. sxhkd
 ```
 
