@@ -1,0 +1,45 @@
+# i3 config file (v4)
+font pango:DejaVu Sans Mono 8
+set $mod Mod4
+
+# ------------
+# Window Rules
+# ------------
+for_window [class="Spotify"] move to workspace 10
+for_window [class="discord"] move to workspace 9
+#for_window [class="mpv"] floating enable
+#for_window [class="Sxiv"] floating enable
+#for_window [class="Alacritty" instance="floating-term"] floating enable
+
+
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id picom -b --backend glx --experimental-backends
+exec_always --no-startup-id feh --bg-fill --randomize ~/Wallpapers
+exec_always --no-startup-id sxhkd
+exec_always --no-startup-id setxkbmap pt
+#exec --no-startup-id i3-battery-popup -n
+#exec --no-startup-id nm-applet
+#exec --no-startup-id dunst
+#exec_always --no-startup-id python $DOTFILES/scripts/alternating_layouts.py
+#exec_always bash -c "kill -SIGUSR1 $(pgrep sxhkd)"
+
+
+gaps inner 3
+#gaps outer 1
+#smart_gaps inverse_outer
+#smart_gaps off
+smart_borders on
+default_border pixel 1
+new_float pixel
+#new_window pixel 2 
+hide_edge_borders none
+floating_modifier $mod
+
+# Theme color
+# class                   border  backgr. text    indic.   child_border
+  client.focused          #212121 #ff79c6 #ff79c6 #ff79c6
+  client.unfocused        #2F3D44 #2F3D44 #AD69AF #454948
+  client.urgent           #CB4B16 #FDF6E3 #AD69AF #268BD2
+  client.placeholder      #ff79c6 #ff79c6 #ff79c6 #ff79c6
+
+  client.background       #2B2C2B
