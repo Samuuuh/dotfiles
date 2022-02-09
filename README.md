@@ -6,9 +6,9 @@ Window Manager ............. i3
 Terminal ................... kitty
 Shell ...................... zsh
 Locker ..................... i3lock
-Fonts ...................... 
+Fonts ...................... FiraCode
 Screen Capturing ........... flameshot
-Clipboard Manager ..........
+Clipboard Manager .......... 
 Browser .................... firefox
 Editor ..................... nano
 Audio tool ................. PulseAudio
