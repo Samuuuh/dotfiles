@@ -8,14 +8,12 @@ Shell ...................... zsh
 Locker ..................... i3lock
 Fonts ...................... FiraCode
 Screen Capturing ........... flameshot
-Clipboard Manager .......... 
+Clipboard Manager .......... CopyQ
 Browser .................... firefox
 Editor ..................... nano
 Audio tool ................. PulseAudio
 File Manager ............... thunar
 Document Viewer ............ zathura
-Image Viewer ...............
-Music Player ............... 
 Media Player ............... mpv
 Launcher ................... rofi
 Status Bar ................. polybar
