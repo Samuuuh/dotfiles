@@ -2,7 +2,7 @@
 monitor = 0
 follow = mouse
 origin = top-right
-offset = 15x15
+offset = 30x40
 scale = 0
 indicate_hidden = yes
 shrink = no
@@ -12,8 +12,8 @@ horizontal_padding = 15
 frame_width = 0
 sort = no
 idle_threshold = 120
-font = Hack Nerd Font 10
-line_height = 10
+font = Fira Code Nerd Font 7
+line_height = 5
 markup = full
 format = "<b>%s</b>\n%b"
 alignment = left
@@ -34,21 +34,17 @@ class = Dunst
 mouse_left_click = close_current
 mouse_right_click = do_action
 
-frame_color = "#96CDFB"
+frame_color = "#212121"
 separator_color= "#96CDFB"
 
 [urgency_low]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
+background = "#212121"
+foreground = "#dadada"
 
 [urgency_normal]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
+background = "#212121"
+foreground = "#dadada"
 
 [urgency_critical]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
-
-[play_sound]
-summary = "*"
-script = "~/.local/bin/alert"
+background = "#e57474"
+foreground = "#dadada"

@@ -1,13 +1,13 @@
 [Default Applications]
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
 
 [Added Associations]
 application/json=visual-studio-code.desktop;
 text/x-python=wine-extension-txt.desktop;
-video/x-matroska=mpv.desktop;firefox.desktop;
-application/pdf=firefox.desktop;
+video/x-matroska=mpv.desktop;chromium.desktop;
+application/pdf=chromium.desktop;
 application/zip=wine-Programs-7-Zip-7-Zip File Manager.desktop;
 image/gif=chromium.desktop;
-text/html=firefox.desktop;
-image/png=firefox.desktop;
+text/html=chromium.desktop;
+image/png=chromium.desktop;

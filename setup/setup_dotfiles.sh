@@ -1,7 +1,5 @@
 #!/bin/bash
-
 path="$0"
-python_file=""
 package_file="packages.txt"
 
 if [[ "${path:0:1}" = "/" ]] # check if an absolute path is provided
@@ -20,10 +18,18 @@ main() {
     packages
 }
 
+createDirs() {
+    mkdir ~/Desktop
+    mkdir ~/Downloads
+    mkdir ~/Github
+    mkdir ~/Templates
+    mkdir ~/Wallpapers
+    mkdir ~/Screenshots
+}
 
 packages() {
     # Install yay #
-    read -p "Do you wish to install YAY? (defaults to yes)" -n 1 -r
+    read -p "Do you wish to install Yet Another Yogurt? [Y/n]" -n 1 -r
     if [ "$REPLY" != "n" ]
     then
         yay_dir=~/.local/share/yay
@@ -31,7 +37,7 @@ packages() {
         cd $yay_dir || exit
         makepkg -si
     fi
-    echo "YAY installed with success"
+    echo "YAY -> Installed with success"
 
     # Install Packages #
     # Spotify Keys
