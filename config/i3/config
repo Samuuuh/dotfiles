@@ -5,13 +5,14 @@ set $mod Mod4
 # ------------
 # Window Rules
 # ------------
+for_window [all] border pixel
 for_window [class="Spotify"] move to workspace 9
 for_window [class="discord"] move to workspace 8
 
 # PolyBar
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh
 
-exec_always --no-startup-id picom -b --backend glx --experimental-backends
+exec_always --no-startup-id picom -b --backend glx --experimental-backends 
 exec_always --no-startup-id feh --bg-fill --randomize ~/Wallpapers
 exec_always --no-startup-id sxhkd
 exec_always --no-startup-id setxkbmap pt
@@ -21,7 +22,7 @@ gaps inner 3
 #smart_gaps inverse_outer
 #smart_gaps off
 smart_borders on
-default_border pixel 2
+default_border pixel 1
 new_float pixel
 #new_window pixel 2 
 hide_edge_borders none
