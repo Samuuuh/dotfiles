@@ -1,9 +1,0 @@
-2022/11/20-09:39:37.205 39b8 Reusing MANIFEST /home/samuh/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/20-09:39:37.206 39b8 Recovering log #20
-2022/11/20-09:39:37.207 39b8 Reusing old log /home/samuh/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000020.log 
-2022/11/20-09:39:37.454 39b8 Compacting 1@1 + 1@2 files
-2022/11/20-09:39:37.467 39b8 Generated table #23@1: 1136 keys, 167362 bytes
-2022/11/20-09:39:37.467 39b8 Compacted 1@1 + 1@2 files => 167362 bytes
-2022/11/20-09:39:37.470 39b8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/20-09:39:37.470 39b8 Delete type=2 #18
-2022/11/20-09:39:37.470 39b8 Delete type=2 #21

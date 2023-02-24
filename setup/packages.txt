@@ -8,7 +8,6 @@ discord
 docker
 dunst
 efibootmgr
-eww-git
 feh
 flameshot
 gcc
@@ -42,7 +41,7 @@ python-pip
 rofi
 socat
 spotify
-stremio
+stremio-beta
 sudo
 sxhkd
 thunar

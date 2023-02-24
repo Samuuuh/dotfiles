@@ -1,6 +1,0 @@
-2022/11/19-19:15:26.655 31d2 Reusing MANIFEST /home/samuh/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/19-19:15:26.655 31d2 Recovering log #16
-2022/11/19-19:15:26.704 31d2 Reusing old log /home/samuh/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000016.log 
-2022/11/19-19:43:19.653 3daf Level-0 table #21: started
-2022/11/19-19:43:19.674 3daf Level-0 table #21: 1383782 bytes OK
-2022/11/19-19:43:19.680 3daf Delete type=0 #16

@@ -38,7 +38,7 @@ super + Return
 	kitty
 
 super + d
-	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launcher.rasi
+	rofi -no-lazy-grab -show drun -modi drun 
 
 super + Tab
 	rofi -show window -show-icons -theme ~/.config/rofi/launcher.rasi
